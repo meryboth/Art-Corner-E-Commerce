@@ -102,7 +102,7 @@
     {
       "sys": { "id": "13" },
       "fields": {
-        "title": "ludwig",
+        "title": "Pink Flamingo",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/13.jpg" } } }
       }
@@ -110,7 +110,7 @@
     {
       "sys": { "id": "14" },
       "fields": {
-        "title": "ludwig",
+        "title": "Child",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/14.jpg" } } }
       }
@@ -118,7 +118,7 @@
      {
       "sys": { "id": "15" },
       "fields": {
-        "title": "ludwig",
+        "title": "Moon",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/15.jpg" } } }
       }
@@ -127,7 +127,7 @@
     {
       "sys": { "id": "16" },
       "fields": {
-        "title": "ludwig",
+        "title": "Games and chill",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/16.png" } } }
       }
@@ -135,7 +135,7 @@
     {
       "sys": { "id": "17" },
       "fields": {
-        "title": "ludwig",
+        "title": "Fashion",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/17.png" } } }
       }
@@ -143,7 +143,7 @@
     {
       "sys": { "id": "18" },
       "fields": {
-        "title": "ludwig",
+        "title": "Flowers",
         "price": 23.99,
         "image": { "fields": { "file": { "url": "./images/18.png" } } }
       }
