@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Art-Corner</title>
+		<link rel="shortcut icon" href="/images/palette-solid.ico" type="image/x-icon" />
+		<!--fuentes-->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Display&display=swap"
+			rel="stylesheet"
+		/>
+		<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet" />
+		<!--link font awesome-->
+		<script src="https://kit.fontawesome.com/e78fc278fc.js" crossorigin="anonymous"></script>
+		<!--link jquery-->
+		<script src="js/jquery-3.1.0.min.js"></script>
+		<!--link bootstrap-->
+		<link
+			rel="stylesheet"
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+			integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+			crossorigin="anonymous"
+		/>
+		<!--link estilos de css-->
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+	<body>
+		<!--nav bar-->
+		<nav class="navbar" style="z-index: 300">
+			<div class="navbar-center">
+				<a href="#"><img src="./images/art-corner.svg" alt="logo comfy house" /></a>
+				<div class="cart-btn">
+					<a href="login.html" class="admin-btn m-4 p-2" style="text-decoration: none">Login</a>
+					<span class="nav-icon">
+						<i class="fas fa-cart-plus"></i>
+					</span>
+					<div class="cart-items">0</div>
+				</div>
+			</div>
+		</nav>
+		<!--hero-->
+		<main role="main">
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<ol class="carousel-indicators">
+					<li style="z-index: 102" data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li style="z-index: 102" data-target="#myCarousel" data-slide-to="1"></li>
+					<li style="z-index: 102" data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img
+							src="images/slide-01.jpg"
+							alt="First Slide"
+							class="imgFilter first-slide"
+							style="max-width: 100%"
+						/>
+						<div class="container">
+							<div class="carousel-caption">
+								<h1>Modern Illustrations</h1>
+								<p>
+									Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis in, soluta nihil
+									voluptate praesentium explicabo ipsum molestiae nostrum harum ex quidem quod
+									accusantium facere corrupti a cupiditate? Voluptatem modi ad at sed accusantium cum
+									fugiat?
+								</p>
+								<p>
+									<a role="button" class="btn btn-lg btn-warning" href="#products">Our Collection</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="images/slide-02.jpg"
+							alt="Second Slide"
+							class="imgFilter second-slide"
+							style="max-width: 100%"
+						/>
+						<div class="container">
+							<div class="carousel-caption text-center">
+								<h1>Collages</h1>
+								<p>
+									Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam expedita ullam
+									cum numquam maxime labore optio doloremque aut nam voluptatem harum asperiores,
+									soluta debitis eaque eos maiores blanditiis non? Maxime obcaecati culpa assumenda
+									eum error.
+								</p>
+								<p>
+									<a role="button" class="btn btn-lg btn-warning" href="#products">Our Collection</a>
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-item">
+						<img
+							src="images/slide-03.jpg"
+							alt="Third Slide"
+							class="imgFilter third-slide"
+							style="max-width: 100%"
+						/>
+						<div class="container">
+							<div class="carousel-caption text-center">
+								<h1>Realistic</h1>
+								<p>
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi ab neque culpa
+									laborum nisi distinctio saepe dolor inventore, ducimus, est deserunt nobis nihil?
+									Numquam eaque sed amet neque sint corrupti totam eligendi vitae odio eveniet.
+								</p>
+								<p>
+									<a role="button" class="btn btn-lg btn-warning" href="#products">Our Collection</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a
+					style="z-index: 101"
+					class="carousel-control-prev"
+					href="#myCarousel"
+					role="button"
+					data-slide="prev"
+				>
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previus</span>
+				</a>
+				<a
+					style="z-index: 101"
+					class="carousel-control-next"
+					href="#myCarousel"
+					role="button"
+					data-slide="next"
+				>
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</main>
+
+		<!-- end of hero-->
+		<!--products-->
+		<section class="products">
+			<div class="section-title">
+				<h2 id="shop">Our Collection</h2>
+			</div>
+			<div class="products-center" id="modern">
+				<!--single product-->
+			</div>
+		</section>
+		<!--end of products-->
+		<!-- cart -->
+		<div class="cart-overlay" style="z-index: 350">
+			<div class="cart">
+				<span class="close-cart">
+					<i class="fas fa-window-close"></i>
+				</span>
+				<h2>Your Cart</h2>
+				<div class="cart-content">
+					<!-- cart item -->
+					<!-- end of cart item -->
+				</div>
+				<div class="cart-footer">
+					<h3>Your Total: $ <span class="cart-total">0</span></h3>
+					<button class="clear-cart banner-btn">Clear Cart</button>
+					<button class="banner-btn" id="buyBtn">Buy</button>
+				</div>
+			</div>
+		</div>
+		<!-- end of cart -->
+		<!-- footer -->
+		<footer class="footer">
+			<a href="#"><i class="fas fa-angle-double-up btn-Up"></i></a>
+			<ul class="footer-social">
+				<li>
+					<a href="https://instagram.com/meryboth"><i class="fab fa-instagram"></i></a>
+				</li>
+				<li>
+					<a href="https://twitter.com/meryboth"><i class="fab fa-twitter-square"></i></a>
+				</li>
+				<li>
+					<a href="https://github.com/meryboth"><i class="fab fa-github-square"></i></a>
+				</li>
+				<li>
+					<a href="mailto:mbotheatoz@gmail.com"><i class="fas fa-envelope"></i></a>
+				</li>
+			</ul>
+			<p>All the art in this page is own by the original artists.</p>
+			<p>
+				This site was made by <strong><a href="https://meryboth.github.io/marilynb/">meryboth</a></strong> with
+				💛
+			</p>
+		</footer>
+		<!-- end of footer -->
+		<script
+			src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+			integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+			integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+			crossorigin="anonymous"
+		></script>
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+			integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+			crossorigin="anonymous"
+		></script>
+		<!--link sweet alert-->
+		<script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.4/dist/sweetalert2.all.min.js"></script>
+		<!--link javascript-->
+		<script src="js/app.js" defer></script>
+	</body>
+</html>
